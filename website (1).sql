@@ -59,8 +59,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`UserID`, `UserName`, `UserSurrname`, `UserMail`, `UserLogin`, `UserPassword`, `UserDateOfJoin`, `UserNick`) VALUES
-(1, 'Hej', 'Cia', 'gram@sam.pl', 'Admin', '123', '2023-03-09', 0),
-(2, 'Elo', 'DASDAS', 'eza@gmail.com', '123', '$2y$10$TRcZ8y/v4kEaDXj8EDgjQeOijmKbNhw78D6kiDjyuFPmYbJGhGf/q', NULL, 0);
+(1, 'Bras', 'Cia', 'mail@sam.pl', 'Admin', '123', '2023-03-09', 0),
+(2, 'Brooo', 'DASDAS', 'ez@gmail.com', '123', '$2y$10$TRcZ8y/v4kEaDXj8EDgjQeOijmKbNhw78D6kiDjyuFPmYbJGhGf/q', NULL, 0);
 
 -- --------------------------------------------------------
 
@@ -84,12 +84,12 @@ INSERT INTO `wpisy` (`WpisID`, `AutorNick`, `AutorEmail`, `Tresc`, `StatusWpisu`
 (5, '1', '', 'fdsafsa', 1),
 (6, '1', '', 'fasdbgvdfs423', 1),
 (9, 'gsdf', '', 'gdfgsdagasdg', 1),
-(10, 'gsdf', 'gram@sam.pl', 'gdfgsdagasdg', 1),
-(11, 'gsdf', 'gram@sam.p', 'gdfgsdagasdg', 1),
-(13, 'gsdf', 'gram@sam.p', 'gdfgsdagasdg', 0),
-(14, 'EJJ LALA', 'hrobit121@gmail.com', 'EJJJJJJJ', 1),
-(15, '123', '123@123.pl', 'Hej kc', 1),
-(16, 'HEJCIAAA', 'gram@sam.pl', 'HEJ ALE JA BYM CIE JKDB ASKJN:D BSJAKND BKHNJAS', 1);
+(10, 'gsdf', 'abc@sam.com', 'gdfgsdagasdg', 1),
+(11, 'gsdf', 'abc@sam.com', 'gdfgsdagasdg', 1),
+(13, 'gsdf', 'abc@sam.com', 'gdfgsdagasdg', 0),
+(14, 'Eyy', 'elazsda@gmail.com', 'EJJJJJJJ', 1),
+(15, '123', '123@123.com', 'efS', 1),
+(16, '123', 'abc@sam.com', 'fdsa', 1);
 
 --
 -- Indeksy dla zrzutów tabel
